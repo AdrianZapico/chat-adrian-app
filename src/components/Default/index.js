@@ -6,9 +6,16 @@ const Default = () => {
   return (
     <C.Container>
       <MdMessage />
-      <C.Title>Chat App</C.Title>
+      <C.Title>Chat Da maldade 😈</C.Title>
       <C.Info>
-        Chat Da maldade 👹
+       
+          
+      <strong>Passo 1: </strong> <C.Ptext>Clique no ícone vermelho no ao lado da foto .</C.Ptext>
+      <strong>Passo 2: </strong> <C.Ptext>Insira um email para quem deseja enviar uma mensagem via chat .</C.Ptext>
+      <strong>Passo 3: </strong> <C.Ptext>IAproveite o Chat da maldade!!! 😈</C.Ptext>
+        <></>
+        
+        
       </C.Info>
     </C.Container>
   );

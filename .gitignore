@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+#firebase
+src/services/firebase.js
+
 # testing
 /coverage
 
@@ -21,3 +24,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/services/firebase.js

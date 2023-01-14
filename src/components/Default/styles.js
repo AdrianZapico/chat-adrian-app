@@ -25,4 +25,11 @@ export const Info = styled.span`
   font-size: 18px;
   text-align: center;
   max-width: 500px;
+  border: solid 1px;
 `;
+
+export const Ptext = styled.p`
+
+    color:  red;
+
+`

@@ -1,6 +1,6 @@
 import React from "react";
 import * as C from "./styles";
-import { MdDonutLarge, MdChat, MdMoreVert } from "react-icons/md";
+import {  MdChat } from "react-icons/md";
 import * as EmailValidator from "email-validator";
 import { auth, db } from "../../services/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -14,7 +14,7 @@ const SidebarHeader = ({ setUserChat }) => {
   const [chatsSnapshot] = useCollection(refChat);
 
   const handleCreateChat = () => {
-    const emailInput = prompt("Escreva o e-mail desejado");
+    const emailInput = prompt("Insira o Email do seu contato, para enviar uma mensagem via chat 😎");
 
     if (!emailInput) return;
 
@@ -44,9 +44,9 @@ const SidebarHeader = ({ setUserChat }) => {
         onClick={() => [auth.signOut(), setUserChat(null)]}
       />
       <C.Options>
-        <MdDonutLarge />
+        
         <MdChat onClick={handleCreateChat} />
-        <MdMoreVert />
+        
       </C.Options>
     </C.Container>
   );

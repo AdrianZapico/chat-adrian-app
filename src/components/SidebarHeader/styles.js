@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
   height: 59px;
   background-color: #f0f2f5;
@@ -25,7 +26,8 @@ export const Options = styled.div`
   svg {
     width: 24px;
     height: 24px;
-    color: #54656f;
+    color: red;
     cursor: pointer;
+    
   }
 `;
