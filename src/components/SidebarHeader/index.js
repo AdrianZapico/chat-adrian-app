@@ -45,6 +45,7 @@ const SidebarHeader = ({ setUserChat }) => {
       />
       <C.Options>
         
+        E-mail:
         <MdChat onClick={handleCreateChat} />
         
       </C.Options>

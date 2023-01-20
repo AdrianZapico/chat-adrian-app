@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import * as C from "./styles";
-import { MdSend } from "react-icons/md";
+import { MdSend, MdEmojiEmotions } from "react-icons/md";
 import { auth, db } from "../../services/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import firebase from "firebase/compat/app";
@@ -8,6 +8,9 @@ import firebase from "firebase/compat/app";
 const ChatFooter = ({ chatId }) => {
   const [user] = useAuthState(auth);
   const [message, setMessage] = useState("");
+
+
+  
 
   const handleSendMessage = (e) => {
     e.preventDefault();
@@ -18,8 +21,13 @@ const ChatFooter = ({ chatId }) => {
       photoURL: user.photoURL,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
-
-    setMessage("");
+    if(message != ""){
+      setMessage("")
+    }  
+    else{
+      alert("O campo não pode ficar vazio 🧙🏻‍♂️")
+    }
+    
   };
 
   return (
@@ -30,6 +38,7 @@ const ChatFooter = ({ chatId }) => {
           onChange={(e) => setMessage(e.target.value)}
           value={message}
         />
+        <MdEmojiEmotions />
         <MdSend onClick={handleSendMessage} />
       </C.Form>
     </C.Container>

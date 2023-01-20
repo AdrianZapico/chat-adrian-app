@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   flex: 1;
-  background-color: #efeae2;
+  background-color: #27448B;
   overflow-y: auto;
 
   &::-webkit-scrollbar {
@@ -12,6 +12,6 @@ export const Container = styled.div`
 
   &::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 `;

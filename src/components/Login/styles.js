@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  margin-left:700px ;
 `;
 
 
@@ -28,6 +28,7 @@ export const Button = styled.button`
   :active{
     background-color: #4e4e4e;
   }
+  
  
 `;
 

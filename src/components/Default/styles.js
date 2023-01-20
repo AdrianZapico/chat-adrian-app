@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #828FF1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +14,9 @@ export const Container = styled.div`
   svg {
     width: 100px;
     height: 100px;
-    color: red;
+    color: blue;
+
+
   }
 `;
 
@@ -30,7 +33,7 @@ export const Info = styled.span`
 
 export const Ptext = styled.p`
 
-    color:  red;
+    color:#0B2E99;
 
 `
 

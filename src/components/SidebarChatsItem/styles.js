@@ -1,14 +1,22 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: start;
   padding: 15px 20px;
-  cursor: pointer;
+  background-color: #aebfc5;
+  border: 0.5px solid black;
+  border-radius:10px;
+  
+ 
+ 
 
   &:hover {
-    background-color: #f0f2f5;
+    background-color: #A5BCF4;
+    backdrop-filter: blur(2px);
+    cursor:pointer;
   }
 
   svg {
@@ -18,10 +26,26 @@ export const Container = styled.div`
     border-radius: 50%;
     margin-right: 10px;
     min-width: fit-content;
+   
   }
 
   &.active {
-    background-color: #f0f2f5;
+    background-color: #5477E5;
+    backdrop-filter: blur(20px);
+    cursor:pointer;
+
+    @keyframes animate{
+     0%{
+       opacity: 0;
+     }
+     50%{
+       opacity: 0.5;
+     }
+     100%{
+       opacity: 0;
+     }
+   }
+   animation: animate 2s linear infinite;
   }
 `;
 

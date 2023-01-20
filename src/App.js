@@ -26,6 +26,7 @@ const App = () => {
 
   return (
     <C.Container>
+    
       <Sidebar setUserChat={setUserChat} userChat={userChat} />
       <Chat userChat={userChat} />
     </C.Container>

@@ -4,6 +4,9 @@ import { db } from "../../services/firebase";
 import * as C from "./styles";
 import { MdPerson } from "react-icons/md";
 
+
+
+
 const getUser = (users, userLogged) =>
   users?.filter((user) => user !== userLogged?.email)[0];
 

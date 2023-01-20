@@ -8,14 +8,14 @@ const Default = () => {
       <C.Divtext>
       <MdMessage />
       
-      <C.Title>Chat Da maldade 😈</C.Title>
+      <C.Title>Chat dos Amigos 🧙🏻‍♂️</C.Title>
       
       <C.Info>
        
           
-      <strong>Passo 1: </strong> <C.Ptext>Clique no ícone vermelho no ao lado da foto .</C.Ptext>
+      <strong>Passo 1: </strong> <C.Ptext>Clique no ícone azul piscando ao lado da foto .</C.Ptext>
       <strong>Passo 2: </strong> <C.Ptext>Insira um email para quem deseja enviar uma mensagem via chat .</C.Ptext>
-      <strong>Passo 3: </strong> <C.Ptext>IAproveite o Chat da maldade!!! 😈</C.Ptext>
+      <strong>Passo 3: </strong> <C.Ptext>Aproveite 🧙🏻‍♂️</C.Ptext>
        
         
         

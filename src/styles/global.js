@@ -13,7 +13,8 @@ body{
     width: 100vh;
     height: 100vh;
     font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #1e3e3e;
+    
+    background: #7D8BEF;
 }
 
 `

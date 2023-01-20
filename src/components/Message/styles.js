@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Container = styled.div``;
 
 export const Line = styled.div`
@@ -8,20 +9,21 @@ export const Line = styled.div`
 
   &.me {
     > div {
-      background-color: #dcf8c6;
+      background-color: #4F5EF3;
     }
     justify-content: right;
   }
 `;
 
 export const Content = styled.div`
-  background-color: #fff;
+  background-color: #AEBFC5;
   border-radius: 10px;
   box-shadow: 0 1px 1px #ccc;
   display: flex;
   flex-direction: column;
   padding: 3px;
   max-width: 80%;
+  box-shadow: 3px 3px #1B336E;
 `;
 
 export const Message = styled.span`
@@ -31,8 +33,9 @@ export const Message = styled.span`
 
 export const MessageDate = styled.span`
   font-size: 11px;
-  color: #999;
+  color: #3C4447;
   text-align: right;
   height: 15px;
   margin: -5px 5px 0;
+  
 `;
